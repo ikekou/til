@@ -6,6 +6,18 @@ iBeaconで気をつけている１０のこと | 丸ノ内テックブログ  ht
 
 今はACCESS社の提供するビーコンとApplix社のMyBeacon®のどちらかを使ってます。
 
+mybeacon-store https://mybeacon-store.stores.jp/
+
+10台2500円〜
+
+ビーコン「ACCESS® Beacon Framework」｜IoTデバイス｜製品情報 | 株式会社ACCESS https://www.access-company.com/products/iot/access-beacon-framework/
+
+価格が不明
+
+Amazon | iBeacon/Beacon端末　1個 黒：BVMCN1101AA B | Braveridge | Bluetoothアダプタ 通販 https://www.amazon.co.jp/Braveridge-BVMCN1101AA-iBeacon-Beacon%E7%AB%AF%E6%9C%AB-1%E5%80%8B-%E9%BB%92%EF%BC%9ABVMCN1101AA/dp/B00O7J5RW6
+
+3960円~
+
 ビーコンは地面に置くのではなく80cmくらいがおすすめ
 
 ビーコンを５０台使う企画だったとしても実際には1.5倍くらいの台数を用意しておいた方が良いです。  
