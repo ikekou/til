@@ -57,3 +57,10 @@ MM-BLEBC3が1万4800円（税込、以下同）、MM-BLEBC4が2万6800円、MM-B
 出てそれなりに年数が経過したが、案外まだ価格が落ちてない印象
 
 大量に買うとそれなりになる
+
+---
+
+MyBeacon® Pro 防水防塵型 MB004 HDc-DR2（1台） | mybeaco... https://mybeacon-store.stores.jp/items/5a0b9d7ced05e67e49001140
+
+防水  
+設置したまま書き換えができる
