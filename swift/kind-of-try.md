@@ -1,5 +1,5 @@
 呼び出してエラーをキャッチする
-```
+```Swift
 func methodB(){
   do {
     try methodA()
@@ -9,7 +9,7 @@ func methodB(){
 ```
 
 呼び出してエラーをキャッチした際にエラーの種類によって分岐する
-```
+```Swift
 func methodB() {
   do {
     try methodA()
@@ -21,7 +21,7 @@ func methodB() {
 ```
 
 キャッチしない（呼び出し元にエラーを返したい
-```
+```Swift
 func methodB(){
   do{
     methodA()
@@ -32,13 +32,13 @@ func methodB(){
 エラーを無視してメソッドを実行する  
 戻りはOptional型、エラーが発生したらnil
 エラーを黙殺してしまうことになるので一般的ではない
-```
+```Swift
 try? methodA()
 ```
 
 エラーが起こりえないとわかっている場合  
 エラーが起きたらクラッシュする
-```
+```Swift
 try! methodA()
 ```
 
