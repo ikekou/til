@@ -1,6 +1,7 @@
 音ファイルからバッファに読み込んでループ再生させる  
 scheduleFileのコールバックでループさせると隙間が空いたので
-``` 
+
+```Swift
 let audioEngine: AVAudioEngine = AVAudioEngine()
 let audioFilePlayer: AVAudioPlayerNode = AVAudioPlayerNode()
 func setupSe(){
@@ -21,3 +22,5 @@ func setupSe(){
     audioFilePlayer.scheduleBuffer(audioFileBuffer!, at: nil, options:.loops, completionHandler: nil)
 }
 ```
+
+ios - Having AVAudioEngine repeat a sound - Stack Overflow https://stackoverflow.com/questions/26852728/having-avaudioengine-repeat-a-sound
