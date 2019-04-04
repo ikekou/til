@@ -1,5 +1,5 @@
 オリジナルのエラーを作る
-```
+```Swift
 enum APIError: Error{
   case network
   case server(Int)
@@ -8,12 +8,12 @@ enum APIError: Error{
 ```
 
 エラーを投げる
-```
+```Swift
 throw APIError.network
 ```
 
 エラーを持つメソッドを定義する
-```
+```Swift
 func methodA() throws -> Void{
   throw APIError.network
 }
