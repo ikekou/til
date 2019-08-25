@@ -29,3 +29,7 @@ UniRxのシンプルなサンプル その9(TimerとInterval 一定時間後に�
 # 設計
 
 リアクティブスパゲティを避けるための2つの原則 │ Aiming 開発者ブログ https://developer.aiming-inc.com/programming/avoid-rx-spaghetti/
+
+# あるReactivePropertyから別のReactivePropertyを作る、または2つを合成したReactivePropertyを作る
+
+UniRxのReactivePropertyについて - Nobollel開発者ブログ http://nobollel-tech.hatenablog.com/entry/unirx-reactive-property
