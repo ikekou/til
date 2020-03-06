@@ -1,31 +1,21 @@
-// Initialize the Image Classifier method with MobileNet. A callback needs to be passed.
-let classifier;
+// Initialize the the neural network
+const neuralNetwork = ml5.neuralNetwork(1, 1);
 
-// A variable to hold the image we want to classify
-let img;
-
-function preload() {
-  classifier = ml5.imageClassifier('MobileNet');
-//   img = loadImage('images/bird.png');
-//   img = loadImage('images/cat.jpeg');
-    img = loadImage('images/dog.jpg');
+// add in some data
+for (let i = 0; i < 100; i += 1) {
+  const x = i;
+  const y = i * 2;
+  neuralNetwork.data.addData([x], [y]);
 }
 
-function setup() {
-  createCanvas(400, 400);
-  classifier.classify(img, gotResult);
-  image(img, 0, 0);
-}
+// normalize your data
+neuralNetwork.data.normalize();
+// train your model
+neuralNetwork.train(finishedTraining);
 
-// A function to run when we get any errors and the results
-function gotResult(error, results) {
-  // Display error in the console
-  if (error) {
-    console.error(error);
-  } else {
-    // The results are in an array ordered by confidence.
+// when it is done training, run .predict()
+function finishedTraining() {
+  neuralNetwork.predict([50], (err, results) => {
     console.log(results);
-    createDiv(`Label: ${results[0].label}`);
-    createDiv(`Confidence: ${nf(results[0].confidence, 0, 2)}`);
-  }
+  });
 }
