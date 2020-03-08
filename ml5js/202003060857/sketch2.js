@@ -66,9 +66,14 @@ function drawLandmarks(){
 
     push();
 
-    beginShape();
-    detections.parts.mouth.forEach(item=>{
-        vertex(item._x,item._y);
-    })
-    endShape(CLOSE);
+    for(let i in detections.parts){
+        beginShape();
+        detections.parts[i].forEach(item=>{
+            vertex(item._x,item._y);
+        })
+        endShape(CLOSE);
+    }
+
+    pop();
+
 }
