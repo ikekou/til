@@ -5,6 +5,7 @@ reference
 
 p5.js Web Editor | FaceApi_Image_Landmarks https://editor.p5js.org/ml5/sketches/FaceApi_Image_Landmarks
 
+【25個掲載】顔認証AIや物体検出に使える画像データセットまとめ | Lionbridge AI https://lionbridge.ai/ja/datasets/20-best-image-datasets-for-computer-vision/
 LFW Face Database : Main http://vis-www.cs.umass.edu/lfw/
 
 */
@@ -20,10 +21,10 @@ const detection_options={
 
 function preload(){
     const t = loadStrings('list.txt');
-    console.log(t);
 
     // img = loadImage('frida.jpg')
-    img = loadImage('okawa.png')
+    //img = loadImage('okawa.png')
+    img = loadImage('lfw/Aaron_Eckhart/Aaron_Eckhart_0001.jpg')
 }
 
 function setup(){
