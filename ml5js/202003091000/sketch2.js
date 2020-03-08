@@ -5,6 +5,8 @@ reference
 
 p5.js Web Editor | FaceApi_Image_Landmarks https://editor.p5js.org/ml5/sketches/FaceApi_Image_Landmarks
 
+LFW Face Database : Main http://vis-www.cs.umass.edu/lfw/
+
 */
 
 let FaceApi;
@@ -19,7 +21,7 @@ const detection_options={
 function preload(){
     const t = loadStrings('list.txt');
     console.log(t);
-    
+
     // img = loadImage('frida.jpg')
     img = loadImage('okawa.png')
 }
