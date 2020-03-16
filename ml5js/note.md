@@ -116,4 +116,15 @@ PoseNet
 
 人の動作を検出！Edge TPUとPosenetで姿勢を推論してみる https://misoji-engineer.com/archives/edge-tpu-posenet.html
 
-無料
+無料  
+商用利用可能  
+ラズパイで動かせる
+
+--
+
+Pix2Pix
+
+p5.js Web Editor | Pix2Pix_callback https://editor.p5js.org/ml5/sketches/Pix2Pix_callback
+
+Image-to-Image Translation with Conditional Adversarial Networks https://phillipi.github.io/pix2pix/
+
