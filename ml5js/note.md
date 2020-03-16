@@ -100,6 +100,20 @@ SketchRNNは、Googleの「Quick Draw!」プロジェクトから集められた
 
 絵を「描く」プロセスの模倣 – A Neural Representation of Sketch Drawings http://createwith.ai/paper/20170415/581?utm_content=buffer0eaa0&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
 
-
-
 A Neural Representation of Sketch Drawingsのまとめ - Qiita https://qiita.com/sakuramochi/items/b643c22bea2b80db6024
+
+--
+
+Sentiment
+
+p5.js Web Editor | Sentiment_Interactive https://editor.p5js.org/ml5/sketches/Sentiment_Interactive
+
+感情解析
+
+--
+
+PoseNet
+
+人の動作を検出！Edge TPUとPosenetで姿勢を推論してみる https://misoji-engineer.com/archives/edge-tpu-posenet.html
+
+無料
