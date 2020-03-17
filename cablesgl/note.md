@@ -60,3 +60,15 @@ pause/resumeできる
 
 Interactive rectangle op tutorial - YouTube https://www.youtube.com/watch?v=4iPmZlrYRQg
 
+## 20200318
+
+外部からパラメータをセットできるという噂を聞いたので調べる
+
+Setting Variables · cables Documentation https://docs.cables.gl/dev_embed_vars/dev_embed_vars.html
+
+自分で作ったサンプル
+https://cables.gl/edit/-3nGG3
+
+見つけたサンプル
+https://cables.gl/edit/W14clJ
+
