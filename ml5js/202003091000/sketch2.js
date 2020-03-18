@@ -13,6 +13,8 @@ LFW Face Database : Main http://vis-www.cs.umass.edu/lfw/
 let FaceApi;
 let img;
 let detections;
+let list;
+let cnt=0;
 
 const detection_options={
     whtLandscape:true,
@@ -20,15 +22,22 @@ const detection_options={
 }
 
 function preload(){
-    const t = loadStrings('list.txt');
-
-    // img = loadImage('frida.jpg')
-    //img = loadImage('okawa.png')
-    img = loadImage('lfw/Aaron_Eckhart/Aaron_Eckhart_0001.jpg')
+    list = loadStrings('list.txt');
 }
 
 function setup(){
-    createCanvas(400,400);
+    createCanvas(800,800);
+
+    hoge()
+}
+
+function hoge(){
+    // img = loadImage('lfw/Aaron_Eckhart/Aaron_Eckhart_0001.jpg',fuga);
+    img = loadImage(list[cnt],fuga);
+    cnt++;
+}
+
+function fuga(){
     img.resize(width,height);
 
     faceapi = ml5.faceApi(detection_options, modelReady);
@@ -41,7 +50,8 @@ function modelReady(){
 
 function gotResult(err,result){
     if(err){
-        console.log(err);
+        // console.log(err);
+        hoge();
         return;
     }
 
@@ -54,6 +64,10 @@ function gotResult(err,result){
         drawBox(detections);
         drawLandmarks(detections);
     }
+
+    setTimeout(()=>{
+        hoge();
+    },0);
 }
 
 function drawBox(detections){
