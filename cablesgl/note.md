@@ -72,3 +72,18 @@ https://cables.gl/edit/-3nGG3
 見つけたサンプル
 https://cables.gl/edit/W14clJ
 
+## 20200319
+
+exportしてcablesglの外部からjsでパラメータを渡してみる
+
+とりあえずエクスポート
+
+Export / Local Previewing / Uploading to your Server · cables Documentation https://docs.cables.gl/dev_embed_webservers/dev_embed_webservers.html
+
+作ったパッチ
+
+new project https://cables.gl/edit/tD_IL3
+
+エクスポートしてJS組んでみたやつ
+
+til/cablesgl/20200319 at master · ikekou/til https://github.com/ikekou/til/tree/master/cablesgl/20200319
