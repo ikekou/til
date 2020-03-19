@@ -22,3 +22,13 @@ static ディレクトリは直接サーバのルートに配置され（/static
 
 Nuxt.jsをインストールしVue.jsアプリケーション開発環境を構築する入門編 https://www.ritolab.com/entry/192
 
+## prettier
+
+create nuxt-appした初期プロジェクトでprettierからエラーが出て動かない - Qiita https://qiita.com/bellx2/items/9ff80594d57ff36fa0b1
+
+create-nuxt-appで作ったプロジェクトが最初からフォーマットエラーを抱えているときの対応 - Qiita https://qiita.com/ryosukes/items/1d2d2f2be9fa46c50f85
+
+```
+node_modules/.bin/eslint --fix --ext .js,.vue --ignore-path .gitignore .
+```
+
