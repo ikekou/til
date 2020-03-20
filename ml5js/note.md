@@ -128,3 +128,14 @@ p5.js Web Editor | Pix2Pix_callback https://editor.p5js.org/ml5/sketches/Pix2Pix
 
 Image-to-Image Translation with Conditional Adversarial Networks https://phillipi.github.io/pix2pix/
 
+--
+
+PitchDetection
+
+Pitch Detection https://ml5js.github.io/ml5-examples/p5js/PitchDetection/PitchDetection/
+
+シンプルなピッチ検出
+
+--
+
+ObjectDetector
