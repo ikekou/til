@@ -32,3 +32,7 @@ create-nuxt-appで作ったプロジェクトが最初からフォーマット�
 node_modules/.bin/eslint --fix --ext .js,.vue --ignore-path .gitignore .
 ```
 
+## LintとPrettier鬱陶しいなと思っていたので自動にしたい
+
+開発ツール - NuxtJS https://ja.nuxtjs.org/guide/development-tools/#eslint-%E3%81%A8-prettier
+
