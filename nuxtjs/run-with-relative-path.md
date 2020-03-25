@@ -33,6 +33,8 @@ router: {
 }
 ```
 
+一応これでできたけどベストかは不明。
+
 # references
 
 nuxtでgenerateしたファイルをローカルで実行する。 - Qiita https://qiita.com/benridane/items/1ba70f32c1220a206423
