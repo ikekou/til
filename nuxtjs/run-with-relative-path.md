@@ -12,9 +12,6 @@ package.json
 nuxt.config.js
 
 ```javascript
-
-// ...
-
 build: {
   extend(config, {isDev, isClient}) {
     if (!isDev) {
@@ -22,15 +19,9 @@ build: {
     }
   },
 },
-
-// ...
-
 ```
 
 ```javascript
-
-// ...
-
 router: {
   extendRoutes (routes, resolve) {
     routes.push({
@@ -40,9 +31,6 @@ router: {
     })
   }
 }
-
-// ...
-
 ```
 
 # references
