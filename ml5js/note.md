@@ -128,3 +128,51 @@ p5.js Web Editor | Pix2Pix_callback https://editor.p5js.org/ml5/sketches/Pix2Pix
 
 Image-to-Image Translation with Conditional Adversarial Networks https://phillipi.github.io/pix2pix/
 
+--
+
+PitchDetection
+
+Pitch Detection https://ml5js.github.io/ml5-examples/p5js/PitchDetection/PitchDetection/
+
+シンプルなピッチ検出
+
+--
+
+ObjectDetector
+
+COCOSSD
+
+tfjs-models/coco-ssd at master · tensorflow/tfjs-models https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd
+
+初心者がJavaScript11行で爆速でドヤる方法〜画像オブジェクト認識編〜 - Qiita https://qiita.com/yukihirai0505/items/d5f22db8cd727a94d1ed
+
+オープンソースのオブジェクト認識モデル
+
+人間(person)や自転車(bicycle),車(car)などなど
+90種類のオブジェクト認識を実行することができます。
+=> https://github.com/tensorflow/tfjs-models/blob/master/coco-ssd/src/classes.ts
+
+【JS】画像のリアルタイム物体検出 数行で実装 デモ有 TensorFlow.js coco-ssd | 404 Motivation Not Found https://tech-blog.s-yoshiki.com/2018/12/869/
+
+↑試した例
+
+CNNを用いた物体検出アルゴリズムの性能比較 - Qiita https://qiita.com/tokkuman/items/3fabd04a1a524843bea5
+
+↑方式の比較
+
+> 物体検出 (Object Detection) は画像認識タスクの中の一つで、一般的に画像認識のタスクは以下のように大きく3つに分類されます。
+> 
+> Classification : 各画像ごとにラベルの分類
+> Object Detection : 画像内で検出された各物体領域ごとにラベルの分類
+> Segmentation : 画像内の各pixelごとにラベルの分類 (Semantic or Instance)
+
+> 自分が調べた限りでは DSSD が最も高い精度となりましたが、速度とのバランスを考えると YOLOv2 が最高のパフォーマンスを示しているみたいです。
+> ただアルゴリズムの性質を考えると、多オブジェクト検出に関してはSSD系を用いた方が良い結果を示しそうです。
+
+--
+
+KNNClassification
+
+PoseNet with KNN Classification on Webcam Images. Built with p5.js https://ml5js.github.io/ml5-examples/p5js/KNNClassification/KNNClassification_PoseNet/
+
+ポーズを学習させて判定する
