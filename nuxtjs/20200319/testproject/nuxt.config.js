@@ -52,5 +52,5 @@ export default {
   /*
    ** change src dir
    */
-  srcDir:'src',
+  srcDir: 'src'
 }
