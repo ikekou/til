@@ -11,14 +11,13 @@ export default class MyButton extends Vue {
   public greet?: string;
 
   @Emit()
-  public click() {
-      
+  public click(): void {
+    return;
   }
 
-  public onClick() {
+  public onClick(): void {
     alert(this.greet);
     this.click();
   }
 }
 </script>
-
